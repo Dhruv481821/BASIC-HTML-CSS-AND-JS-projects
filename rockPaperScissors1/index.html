@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Rock, Paper and Scissors </h1>
+
+    <div class="container">
+
+        <!-- Rock-->
+        <div class="img" data-choice="rock">
+            <img src="./images/rock.png" alt="rock_image" id = "rock">
+            <p>Rock</p>
+        </div>
+
+        <!-- paper -->
+        <div class="img" data-choice="paper">
+            <img src="./images/paper.png" alt="paper_image" id = "paper">
+            <p>Paper</p>
+        </div>
+
+        <!-- scissors -->
+        <div class="img" data-choice="scissors">
+            <img src="./images/scissors.png" alt="scissors_image" id = "scissors">
+            <p>Scissors</p>
+        </div>
+
+    </div>
+
+    <!-- score board -->
+        <div class="score_board">
+
+            <div class="forUser">
+                <p id = userId> 0 </p>
+                <p> user</p>
+            </div>
+
+            <div class="forComputer">
+                <p id = computerId> 0 </p>
+                <p> Computer</p>
+            </div>
+        </div>
+
+        <div class="msg_container">
+            <p id="msg">Choose your move</p>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>

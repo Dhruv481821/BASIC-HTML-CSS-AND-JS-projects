@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: rgb(3, 3, 105);
+    color: white;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+
+.container img {
+    height: 165px;
+    width: 165px;
+    margin: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 3px solid rgba(3, 3, 105, 0.8);
+}
+
+.img p {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+
+.score_board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;   /* space between User and Computer */
+    margin-top: 30px;
+}
+
+
+.forUser,
+.forComputer {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+#userId,
+#computerId {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+
+.msg_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#msg {
+    background-color: rgb(3, 3, 105);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
