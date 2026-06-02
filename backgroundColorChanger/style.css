@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    transition: background-color 0.5s ease;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 221, 255, 0.8);
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+#color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.container  {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: none;
+    border: 2px solid black;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+
+#red {
+    color: white;
+    background-color: red;
+}
+
+#red:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+}
+
+
+#green {
+    color: white;
+    background-color: green;
+}
+
+#green:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
+
+
+#blue {
+    color: white;
+    background-color: blue;
+}
+
+#blue:hover {
+    background-color: darkblue;
+    transform: scale(1.1);
+}
+
+
+#black {
+    color: white;
+    background-color: black;
+}
+
+#black:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: scale(1.1);
+}
+
+
+#white {
+    color: black;
+    background-color: white;
+}
+
+#white:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: scale(1.1);
+}
+
+
+#magenta {
+    color: black;
+    background-color: magenta;
+}
+
+#magenta:hover {
+    background-color: rgba(241, 23, 234, 0.6);
+    transform: scale(1.1);
+}
+
+
+#pink {
+    color: black;
+    background-color: pink;
+}
+
+#pink:hover {
+    background-color: rgba(248, 54, 54, 0.4);
+    transform: scale(1.1);
+}
+
+
+#random {
+    color: black;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#random:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
