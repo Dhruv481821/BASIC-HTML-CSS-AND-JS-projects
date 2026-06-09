@@ -1,0 +1,115 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    max-width: 450px;
+    background: linear-gradient(
+        -45deg,
+        #69D2E7,
+        #A7DBD8,
+        #E0E4CC,
+        #C8C8A9
+    );
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+
+.input input {
+    border: none;
+    background-color: white;
+    outline: none;
+    height: 30px;
+    width: 80%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.input button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+}
+
+.input button:hover {
+    background-color: greenyellow;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.images {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.images img {
+    height: 150px;
+    object-fit: contain;
+    margin: 20px;
+}
+
+#temp {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#city {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.wind_humidity {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.humidity, 
+.speed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.humidity img, 
+.speed img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+
+.weather {
+    display: none;
+}
